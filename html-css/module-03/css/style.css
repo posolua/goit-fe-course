@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body {
+    font-family: ' Playfair Display', sans-serif;
+    font-size: 16px;
+}
+.wrapper {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+.navigation {
+    text-align: center;
+}
+.list li {
+    display: inline-block ;
+    margin-right: 40px;
+    margin-top: 60px;
+    padding: 0;
+}
+.list a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.list a:hover {
+    background-color: teal;
+    color: seashell;
+}
+.content {
+    width: 900px;
+    margin-top: 40px;
+}
+.section-one {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    padding: 20px;
+}
+.section-one figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-one h2 {
+    font-weight: normal;
+}
+.section-one p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.section-two {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+.section-two figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-two h2 {
+    font-weight: normal;
+}
+.section-two p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.section-three {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    padding: 20px;
+}
+.section-three figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-three h2 {
+    font-weight: normal;
+}
+.section-three p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.section-four {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+.section-four figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-four h2 {
+    font-weight: normal;
+}
+.section-four p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.section-five {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    padding: 20px;
+}
+.section-five figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-five h2 {
+    font-weight: normal;
+}
+.section-five p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.section-six {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+.section-six figcaption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: unset;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e
+}
+.section-six h2 {
+    font-weight: normal;
+}
+.section-six p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+.footer {
+    text-align: center;
+    margin-top: 10px;
+}
+.footer input {
+    font-size: 20px;
+    color: #626262;
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 70px;
+}
