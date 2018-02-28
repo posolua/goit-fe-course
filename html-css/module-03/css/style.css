@@ -11,14 +11,16 @@
     display: block;
     width: 900px;
     margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .navigation {
     text-align: center;
+    margin-bottom: 20px;
 }
 .list li {
     display: inline-block ;
     margin-right: 40px;
-    margin-top: 60px;
     padding: 0;
 }
 .list a {
@@ -32,18 +34,16 @@
     background-color: teal;
     color: seashell;
 }
-.content {
-    width: 900px;
-    margin-top: 40px;
-}
+
 .section-one {
     display: inline-block;
-    width: 50%;
-    margin-right: -4px;
-    padding: 20px;
+    width: 45%;
+    margin-right: 40px; 
+}
+.section-one img {
+    margin-bottom: 20px;
 }
 .section-one figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -52,18 +52,20 @@
 }
 .section-one h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-one p {
-    margin-top: 30px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 .section-two {
     display: inline-block;
-    width: 50%;
-    padding: 20px;
+    width: 45%;
+}
+.section-two img {
+    margin-bottom: 20px;
 }
 .section-two figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -72,19 +74,20 @@
 }
 .section-two h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-two p {
-    margin-top: 30px;
     font-weight: normal;
 }
 .section-three {
     display: inline-block;
-    width: 50%;
-    margin-right: -4px;
-    padding: 20px;
+    width: 45%;
+    margin-right: 40px;
+}
+.section-three img {
+    margin-bottom: 20px;
 }
 .section-three figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -93,18 +96,20 @@
 }
 .section-three h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-three p {
-    margin-top: 30px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 .section-four {
     display: inline-block;
-    width: 50%;
-    padding: 20px;
+    width: 45%;
+}
+.section-four img {
+    margin-bottom: 20px;
 }
 .section-four figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -113,19 +118,20 @@
 }
 .section-four h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-four p {
-    margin-top: 30px;
     font-weight: normal;
 }
 .section-five {
     display: inline-block;
-    width: 50%;
-    margin-right: -4px;
-    padding: 20px;
+    width: 45%;
+    margin-right: 40px;
+}
+.section-five img {
+    margin-bottom: 20px;
 }
 .section-five figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -134,18 +140,20 @@
 }
 .section-five h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-five p {
-    margin-top: 30px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 .section-six {
     display: inline-block;
-    width: 50%;
-    padding: 20px;
+    width: 45%;
+}
+.section-six img {
+    margin-bottom: 20px;
 }
 .section-six figcaption {
-    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: unset;
@@ -154,16 +162,16 @@
 }
 .section-six h2 {
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .section-six p {
-    margin-top: 30px;
     font-weight: normal;
 }
-.footer {
+.button {
     text-align: center;
     margin-top: 10px;
 }
-.footer input {
+.button input {
     font-size: 20px;
     color: #626262;
     padding: 20px;
