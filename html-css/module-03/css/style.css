@@ -16,6 +16,7 @@
 }
 .navigation {
     text-align: center;
+    text-decoration-color: black;
     margin-bottom: 20px;
 }
 .list li {
