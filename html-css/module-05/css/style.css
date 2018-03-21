@@ -1,0 +1,244 @@
+body {
+    max-width: 1600px;
+}
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+.header {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.logo {
+    float: left;
+}
+.logo::first-letter {
+    color: #1abc9c;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.logo span {
+    font-size: 30px;
+    color: #555252;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.navigation {
+    line-height: 35px;
+    float: right;
+}
+.header li {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.header a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #312727;
+    font-weight: 700;
+    font-size: 11px;
+}
+.header a:hover {
+    color: #1abc9c;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.slider {
+    background-color: #000002;
+    width: 1600px;
+    height: 600px;
+    position: relative;
+}
+.slider img {
+    background-color: #323232;
+    opacity: 0.522;
+    width: 100%;
+}
+.slider button {
+    width: 105px;
+    height: 105px;
+    background: #1abc9c;
+    opacity: 0.722; 
+}
+.slider button:hover {
+    background-color: #1abc9c;
+    opacity: 1;   
+}
+.left {
+    position: absolute;
+    left: 245px;
+    top: 223px;
+}
+.right {
+    position: absolute;
+    right: 245px;
+    top: 223px;
+}
+.slider a {
+    text-decoration: none;
+    font-size: 42px;
+    color: #ffffff;
+}
+.slider h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 215px;
+    left: 425px;
+}
+.slider h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    top: 298px;
+    left: 425px;
+}
+.section {
+    height: 676px;
+    width: 1600px;
+    background-color: #e9f0fd;
+    display: block;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 77px;
+}
+.title::after {
+    border-bottom: 9px solid #1abc9c;
+    content: "";
+    width: 160px;
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.cards {
+    width: 1110px;
+    height: auto;
+    margin-right: 245px;
+    margin-left: 245px;
+    display: block;
+}
+.card {
+    max-width: 255px;
+    height: 322px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.card:hover .card-icons {
+    display: block;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.549;
+    width: 255px;
+    height: 322px;
+    text-align: center;
+    padding-top: 100px;
+}
+.name:hover {
+    background-color: #1abc9c;
+}
+.price:hover {
+    background-color: #1abc9c;
+}
+.option {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 255px;
+}
+.card:last-child {
+    margin-right: 0px;
+}
+.card-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.card-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    font-size: 24px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    color: #ffffff;
+}
+.card-icon:hover {
+    background-color: #1abc9c;
+    opacity: 1;
+}
+.basket {
+    background-color: rgb(50, 50, 50);
+    width: 158px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.fa-shopping-cart {
+    font-size: 24px;
+    padding-right: 15px;
+}
+.name {
+    background-color: #323232;
+    color: white;
+    float: left;
+    width: 79%;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.price {
+    background-color: #8c8c8c;
+    color: white;
+    width: 21%;
+    float: right;
+    padding: 11px;
+}
+.footer {
+    width: 1600px;
+    background: #323232;
+    height: 88px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    position: relative;
+}
+.footer p {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.footer span {
+    color: #45b6a1;
+}
