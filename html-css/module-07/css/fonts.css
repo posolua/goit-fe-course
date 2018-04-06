@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-v12-latin-regular.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'),
+         url('../fonts/montserrat-v12-latin-700.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Euphoria Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Euphoria Script'), local('EuphoriaScript-Regular'),
+         url('../fonts/euphoria-script-v5-latin-regular.woff2') format('woff2'),
+         url('../fonts/euphoria-script-v5-latin-regular.woff') format('woff');
+  }
+@font-face {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Amiri Italic'), local('Amiri-Italic'),
+         url('../fonts/amiri-v10-latin-italic.woff2') format('woff2'),
+         url('../fonts/amiri-v10-latin-italic.woff') format('woff');
+  }
