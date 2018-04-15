@@ -1,11 +1,9 @@
 .wrapper {
     max-width: 1400px;
-    height: auto;
     margin: 0 auto;  
 }
 .contain {
     max-width: 940px;
-    height: auto;
     margin: 0 auto;
 }
 h2 {
@@ -110,10 +108,8 @@ p {
     width: 100%;
 }
 .article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 290px;
+    text-align: center;
 }
 .article p {
     text-align: center;
