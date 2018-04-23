@@ -109,7 +109,7 @@ h4 {
     background-position: center;
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: 55px;
     bottom: 0;
 }
 .tv {
@@ -191,5 +191,40 @@ h4 {
     }
     .article {
         flex-basis: 40%;
+    }
+}
+@media (min-width: 942px){
+    .background {
+        background-image: url('../images/desktop.jpg');
+        background-repeat: no-repeat;
+    }
+    .header {
+        margin: 0 auto;
+    }
+    .container-fluid {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 942px;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 52px;
+        padding: 0 200px;
+        margin-bottom: 30px;
+    }
+    .navigation {
+        margin-top: 25px;
+    }
+    .find-partner {
+        width: 225px;
+        margin-bottom: 232px;
+    }
+    .perfect-partner {
+        margin-bottom: 35px;
+    }
+    .wrap {
+        
     }
 }
