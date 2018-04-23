@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+p {
+    font-family: 'Roboto';
+    font-style: initial;
+    font-weight: 300;
+}
+.background {
+    max-width: 320px;
+    margin: 0 auto;
+    background-image: url('../images/phone.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0;
+}
+.box {
+    max-width: 320px;
+    margin: 0 auto;
+    height: auto;
+}
+.header {
+    margin-bottom: 70px;
+}
+.menu-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+.login {
+    margin-right: 25px;
+}
+.logo-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+}
+.navigation {
+    margin-bottom: 39px;
+}
+.menu {
+    margin-bottom: 117px;
+    padding-top: 20px;
+}
+.menu-link:hover {
+    border: 2px solid rgb(255, 255, 255);
+    width: 90px;
+    height: 36px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.perfect-partner {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.find-partner {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 12px;
+    text-align: center;
+}
+.wrap {
+    margin-bottom: 65px;
+}
+h4 {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image {
+    position: relative;
+    margin-bottom: 20px;
+}
+.round {
+    width: 32px;
+    height: 32px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden; 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.tv {
+    background-image: url('../images/Shape 128.png');
+    background-color: #ff4e50;
+}
+.bottle {
+    background-image: url('../images/Shape 155.png');
+    background-color: #ffa507;
+}
+.coffee {
+    background-image: url('../images/Shape 153.png');
+    background-color: #1cd7ad;
+}
+.telegram {
+    background-image: url('../images/Shape 170.png');
+    background-color: #4e73db;
+}
+.partner-item span {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.partner-item {
+    margin-bottom: 30px;
+}
+.partner-item p {
+    text-align: center;
+    font-size: 14px;
+}
+.button {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 78, 80);
+    outline: none;
+    margin-bottom: 57px;
+}
+.other {
+    color: rgb(255, 78, 80);
+    font-size: 14px;
+    text-decoration: none;
+}
+@media (min-width: 768px) and (max-width: 941px) {
+    .background {
+        background-image: url('../images/tablet.jpg');
+        background-repeat: no-repeat;
+    }
+    .container-fluid {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 748px;
+        margin: 0 auto;
+    }
+    .logo-link {
+        margin-left: 40px;
+    }
+    .navigation {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 52px;
+        padding: 0 110px;
+        margin-bottom: 30px;
+    }
+    .perfect-partner {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .find-partner {
+        width: 225px;
+        margin-bottom: 234px;
+    }
+    .header {
+        margin: 0 auto;
+    }
+    .article {
+        flex-basis: 40%;
+    }
+}

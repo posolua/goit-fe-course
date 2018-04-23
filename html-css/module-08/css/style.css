@@ -22,6 +22,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
 }
 .navigation a {
     text-decoration: none;
@@ -74,12 +75,11 @@ h2 {
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
     border: none;
-    margin-bottom: 140px;
+    margin-bottom: 155px;
     outline: none;
 }
 h4 {
     font-size: 22px;
-    margin-top: 70px;
     margin-bottom: 20px;
     line-height: 1.2;
     text-align: center;
@@ -176,9 +176,7 @@ button a {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-bottom: 70px;
     }
     .header {
         display: flex;
@@ -190,7 +188,7 @@ button a {
     }
     .logo {
         order: 1;
-        padding-left: 40px;
+        margin-left: 40px;
     }
     .navigation {
         order: 2;
@@ -236,14 +234,6 @@ button a {
     .contain {
         max-width: 942px;
         margin: 0 auto;
-    }
-    .box {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .header {
         display: flex;
