@@ -41,6 +41,10 @@ h2, h6, p {
     list-style: none;
     margin-left: 55px;
 }
+.navigation__btn {
+    background: unset;
+    border: none;
+}
 .navigation__link {
     text-decoration: none;
     color: #f9e4e4;
@@ -49,6 +53,9 @@ h2, h6, p {
 .navigation__link:hover {
     color: #fce38a;
     border-bottom: 3px solid #fce38a;
+}
+.navigation__svg:hover {
+    fill: #fce38a;
 }
 .box {
     text-align: center;
@@ -206,28 +213,6 @@ h2, h6, p {
 .team-item {
     position: relative;
 }
-.team-cards .team-item:hover img, .team-cards .team-item:hover .team-item {
-    visibility: visible;
-    transform: translate(-10px,-10px);
-    transition: transform, box-shadow;
-    box-shadow: 10px 10px 0 #95e1d3;
-    transition-duration: 200ms;
-    opacity:0.9;
-}
-.icon {
-    width: 58px;
-    height: 58px;
-    background-color: #fce38a;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-    border-right: 1px solid #f9bd87;
-}
-.icon:hover {
-    background-color: #95e1d3;
-    transition: background-color;
-    transition-duration: 200ms;
-}
 .team-item-social {
     position: absolute;
     top: 0;
@@ -240,7 +225,25 @@ h2, h6, p {
     align-items: center;
     visibility: hidden;
 }
-
-
-
-
+.team-cards .team-item:hover .team-item__image, .team-cards .team-item:hover .team-item-social {
+    visibility: visible;
+    transform: translate(-10px,-10px);
+    transition: transform, box-shadow;
+    box-shadow: 10px 10px 0 #95e1d3;
+    transition-duration: 200ms;
+    opacity:0.9;
+}
+.icon:hover {
+    background-color: #95e1d3;
+    transition: background-color;
+    transition-duration: 200ms;
+}
+.icon {
+    width: 58px;
+    height: 58px;
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-right: 1px solid #f9bd87;
+}
