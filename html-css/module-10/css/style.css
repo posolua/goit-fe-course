@@ -234,12 +234,13 @@ h2, h6, p, button {
     transition-duration: 200ms;
     opacity:0.9;
 }
-.team-item-social__icon:hover {
-    background-color: #95e1d3;
+.team-item-social__link:hover, .team-item-social__link:hover .team-item-social__icon {
+    background-color: #f38181;
     transition: background-color;
     transition-duration: 200ms;
+    fill: #ffffff;
 }
-.team-item-social__icon {
+.team-item-social__link {
     width: 58px;
     height: 58px;
     background-color: #fce38a;
