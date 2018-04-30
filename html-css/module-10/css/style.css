@@ -188,6 +188,7 @@ h2, h6, p {
 }
 .service-list__svg {
     fill: #95e1d3;
+    margin-right: 28px;
 }
 
 
