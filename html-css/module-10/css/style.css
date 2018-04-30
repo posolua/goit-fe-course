@@ -45,7 +45,7 @@ h2, h6, p, button {
     background: unset;
     border: none;
 }
-.navigation__link {
+.navigation__link, .navigation__svg {
     text-decoration: none;
     color: #f9e4e4;
     padding-bottom: 13px;
@@ -56,6 +56,7 @@ h2, h6, p, button {
 }
 .navigation__btn:hover .navigation__svg {
     fill: #fce38a;
+    border-bottom: 3px solid #fce38a;
 }
 .box {
     text-align: center;
@@ -233,12 +234,12 @@ h2, h6, p, button {
     transition-duration: 200ms;
     opacity:0.9;
 }
-.icon:hover {
+.team-item-social__icon:hover {
     background-color: #95e1d3;
     transition: background-color;
     transition-duration: 200ms;
 }
-.icon {
+.team-item-social__icon {
     width: 58px;
     height: 58px;
     background-color: #fce38a;
