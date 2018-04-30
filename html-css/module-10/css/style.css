@@ -45,9 +45,13 @@ h2, h6, p, button {
     background: unset;
     border: none;
 }
-.navigation__link, .navigation__svg {
+.navigation__link {
     text-decoration: none;
     color: #f9e4e4;
+    padding-bottom: 13px;
+}
+.navigation__svg {
+    fill: #f9e4e4;
     padding-bottom: 13px;
 }
 .navigation__link:hover {
@@ -248,8 +252,8 @@ h2, h6, p, button {
     background-position: center;
     display: inline-block;
     border-right: 1px solid #f9bd87;
-    text-align: center;
 }
 .team-item-social__icon {
     font-size: 18px;
+    fill: #f38181;
 }
