@@ -31,6 +31,8 @@ h2, h6, p, button {
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .navigation {
     display: flex;
@@ -40,6 +42,8 @@ h2, h6, p, button {
     font-size: 14px;
     list-style: none;
     margin-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 .navigation__btn {
     background: unset;
@@ -67,6 +71,8 @@ h2, h6, p, button {
     margin-bottom: 45px;
 }
 .box__template {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
     font-size: 72px;
     color: #ffffff;
 }
@@ -90,6 +96,8 @@ h2, h6, p, button {
     height: 44px;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     margin-bottom: 214px;
 }
@@ -97,9 +105,13 @@ h2, h6, p, button {
     text-align: center;
 }
 .service__subtitle, .team__organization {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
     font-size: 24px;
 }
 .service__title, .team__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     margin: 23px 0 0 0;
@@ -129,6 +141,8 @@ h2, h6, p, button {
     text-align: left;
 }
 .service-list-article__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
     color: rgb(51, 51, 51);
@@ -136,11 +150,16 @@ h2, h6, p, button {
     margin-bottom: 20px;
 }
 .service-list-article__text {
+    font-family: 'Roboto';
+    font-weight: 300;
     font-size: 15px;
     color: rgb(153, 153, 153);
     line-height: 1.6;
 }
 .team__text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     font-size: 15px;
     color: rgb(153, 153, 153);
     line-height: 1.6;
@@ -171,11 +190,15 @@ h2, h6, p, button {
     text-decoration: none;
 }
 .footer__copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 14px;
 }
 .footer-form__email {
     font-size: 15px;
-    
+    font-family: 'Roboto', cursive;
+    font-style: italic;
+    font-weight: 100;
     color: rgb(204, 204, 204);
     font-style: italic;
     font-weight: 300;
@@ -191,6 +214,8 @@ h2, h6, p, button {
     text-transform: uppercase;
     color: #ffffff;
     float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 14px;
 }
 .footer-form--clearfix::after {
@@ -203,6 +228,8 @@ h2, h6, p, button {
     margin-right: 28px;
 }
 .team-card__name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     text-transform: uppercase; 
     line-height: 1.2;
@@ -210,6 +237,9 @@ h2, h6, p, button {
     margin-top: 30px;
 }
 .team-card__direction {
+    font-family: 'Roboto', cursive;
+    font-style: italic;
+    font-weight: 100;
     font-size: 15px;
     font-style: italic;
     color: rgb(153, 153, 153);
