@@ -1,4 +1,4 @@
-h2, h6, p {
+h2, h6, p, button {
     padding: 0;
     margin: 0;
 }
@@ -54,7 +54,7 @@ h2, h6, p {
     color: #fce38a;
     border-bottom: 3px solid #fce38a;
 }
-.navigation__svg:hover {
+.navigation__btn:hover .navigation__svg {
     fill: #fce38a;
 }
 .box {
