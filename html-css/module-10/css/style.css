@@ -248,6 +248,7 @@ h2, h6, p, button {
     background-position: center;
     display: inline-block;
     border-right: 1px solid #f9bd87;
+    text-align: center;
 }
 .team-item-social__icon {
     font-size: 18px;
