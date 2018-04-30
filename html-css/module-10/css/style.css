@@ -255,4 +255,5 @@ h2, h6, p, button {
 }
 .team-item-social__icon {
     fill: #f38181;
+    padding-top: 10px;
 }
