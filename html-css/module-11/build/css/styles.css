@@ -379,7 +379,7 @@ template {
   width: 1920px;
   height: auto;
   margin: 0 auto;
-  background-image: url("../img/Layer_15-min.jpg");
+  background-image: url("./img/Layer_15-min.jpg");
   background-repeat: no-repeat;
   padding-top: 39px;
 }
@@ -447,6 +447,6 @@ template {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .wrapper {
-    background: url("../img/Layer_15@2x-min.jpg") no-repeat;
+    background: url("./img/Layer_15@2x-min.jpg") no-repeat;
   }
 }
