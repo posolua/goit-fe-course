@@ -1,70 +1,52 @@
-.wrapper {
-    width: 1920px;
-    height: auto;
-    margin: 0 auto;
-    background-image: url('./img/Layer_15-min.jpg');
-    background-repeat: no-repeat;
-    padding-top: 39px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
-    .wrapper {
-      background: url('./img/Layer_15@2x-min.jpg') no-repeat;
-    }
-  }
-  .container {
-    max-width: 1201px;
-    height: auto;
-    margin: 0 auto;
-}
-.header {
-    margin: 0 auto;
+.footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 130px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.logo {
-    font-size: 30px;
-    font-weight: bold;
+.footer__link {
+    color: #f38181;
     text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
-.navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-.navigation__item {
-    text-transform: uppercase;
-    font-size: 14px;
-    list-style: none;
-    margin-left: 55px;
+.footer__copyright {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 14px;
 }
-.navigation__btn {
-    background: unset;
-    border: none;
+.footer-form__email {
+    font-size: 15px;
+    font-family: 'Roboto', cursive;
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    width: 230px;
+    height: 40px;
+    margin-right: -4px;
 }
-.navigation__link {
-    text-decoration: none;
-    color: #f9e4e4;
-    padding-bottom: 13px;
+.footer-form__subscribe {
+    background-color: rgb(149, 225, 211);
+    width: 150px;
+    height: 46px;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
 }
-.navigation__svg {
-    fill: #f9e4e4;
-    padding-bottom: 13px;
-}
-.navigation__link:hover {
-    color: #fce38a;
-    border-bottom: 3px solid #fce38a;
-}
-.navigation__btn:hover .navigation__svg {
-    fill: #fce38a;
-    border-bottom: 3px solid #fce38a;
+.footer-form--clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
 }
