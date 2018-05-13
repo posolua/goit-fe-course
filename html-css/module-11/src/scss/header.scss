@@ -2,10 +2,15 @@
     width: 1920px;
     height: auto;
     margin: 0 auto;
-    background-image: url('../img/Layer_15-min.jpg');
+    background-image: url('../img/Layer15.jpg');
     background-repeat: no-repeat;
     padding-top: 39px;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    .wrapper {
+      background: url('../img/Layer15@2x.jpg') no-repeat;
+    }
+  }
 .container {
     max-width: 1201px;
     height: auto;
@@ -25,41 +30,41 @@
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    color: $logo-color;
+    font-family: $main-font;
     font-weight: 700;
 }
 .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-.navigation__item {
-    text-transform: uppercase;
-    font-size: 14px;
-    list-style: none;
-    margin-left: 55px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-.navigation__btn {
-    background: unset;
-    border: none;
-}
-.navigation__link {
-    text-decoration: none;
-    color: #f9e4e4;
-    padding-bottom: 13px;
-}
-.navigation__svg {
-    fill: #f9e4e4;
-    padding-bottom: 13px;
-}
-.navigation__link:hover {
-    color: #fce38a;
-    border-bottom: 3px solid #fce38a;
-}
-.navigation__btn:hover .navigation__svg {
-    fill: #fce38a;
-    border-bottom: 3px solid #fce38a;
+    &__item {
+        text-transform: uppercase;
+        font-size: 14px;
+        list-style: none;
+        margin-left: 55px;
+        font-family: $main-font;
+        font-weight: 400;
+    }
+    &__btn {
+        background: unset;
+        border: none;
+        &:hover .navigation__svg {
+            fill: $hover-color;
+            border-bottom: 3px solid $hover-color;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: $navigation-color;
+        padding-bottom: 13px;
+        &:hover {
+            color: $hover-color;
+            border-bottom: 3px solid $hover-color;
+        }
+    }
+    &__svg {
+        fill: $navigation-color;
+        padding-bottom: 13px;
+    }
 }

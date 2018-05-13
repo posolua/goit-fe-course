@@ -375,11 +375,19 @@ template {
   display: none;
 }
 
+h2,
+h6,
+p,
+button {
+  padding: 0;
+  margin: 0;
+}
+
 .wrapper {
   width: 1920px;
   height: auto;
   margin: 0 auto;
-  background-image: url("../img/Layer_15-min.jpg");
+  background-image: url("../img/Layer15.jpg");
   background-repeat: no-repeat;
   padding-top: 39px;
 }
@@ -402,7 +410,7 @@ template {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -415,7 +423,7 @@ template {
   font-size: 14px;
   list-style: none;
   margin-left: 55px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -424,14 +432,14 @@ template {
   border: none;
 }
 
+.navigation__btn:hover .navigation__svg {
+  fill: #fce38a;
+  border-bottom: 3px solid #fce38a;
+}
+
 .navigation__link {
   text-decoration: none;
   color: #f9e4e4;
-  padding-bottom: 13px;
-}
-
-.navigation__svg {
-  fill: #f9e4e4;
   padding-bottom: 13px;
 }
 
@@ -440,9 +448,9 @@ template {
   border-bottom: 3px solid #fce38a;
 }
 
-.navigation__btn:hover .navigation__svg {
-  fill: #fce38a;
-  border-bottom: 3px solid #fce38a;
+.navigation__svg {
+  fill: #f9e4e4;
+  padding-bottom: 13px;
 }
 
 .box {
@@ -451,7 +459,7 @@ template {
 }
 
 .box__template {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 72px;
   color: #ffffff;
@@ -462,7 +470,7 @@ template {
   color: #ffffff;
   padding: 0 100px;
   line-height: 0.933;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 125px;
@@ -478,7 +486,7 @@ template {
   height: 44px;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 214px;
@@ -491,14 +499,14 @@ template {
 
 .service__subtitle,
 .team__organization {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 24px;
 }
 
 .service__title,
 .team__title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -529,13 +537,18 @@ template {
   margin-bottom: 100px;
 }
 
+.service-list__svg {
+  fill: #95e1d3;
+  margin-right: 28px;
+}
+
 .service-list-article {
   width: 300px;
   text-align: left;
 }
 
 .service-list-article__title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -545,20 +558,15 @@ template {
 }
 
 .service-list-article__text {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #999999;
   line-height: 1.6;
 }
 
-.service-list__svg {
-  fill: #95e1d3;
-  margin-right: 28px;
-}
-
 .team__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -582,7 +590,7 @@ template {
 }
 
 .team-card__name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -596,7 +604,6 @@ template {
   font-style: italic;
   font-weight: 100;
   font-size: 15px;
-  font-style: italic;
   color: #999999;
   line-height: 1.6;
 }
@@ -623,6 +630,21 @@ template {
   visibility: hidden;
 }
 
+.team-item-social__link {
+  width: 58px;
+  height: 58px;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  border-right: 1px solid #f9bd87;
+}
+
+.team-item-social__icon {
+  fill: #f38181;
+  padding-top: 10px;
+}
+
 .team-cards .team-item:hover .team-item__image,
 .team-cards .team-item:hover .team-item-social {
   visibility: visible;
@@ -644,21 +666,6 @@ template {
   fill: #ffffff;
 }
 
-.team-item-social__link {
-  width: 58px;
-  height: 58px;
-  background-color: #fce38a;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  border-right: 1px solid #f9bd87;
-}
-
-.team-item-social__icon {
-  fill: #f38181;
-  padding-top: 10px;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -674,7 +681,7 @@ template {
 }
 
 .footer__copyright {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -685,7 +692,6 @@ template {
   font-style: italic;
   font-weight: 100;
   color: #cccccc;
-  font-style: italic;
   font-weight: 300;
   line-height: 1.6;
   width: 230px;
@@ -700,7 +706,7 @@ template {
   text-transform: uppercase;
   color: #ffffff;
   float: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
@@ -709,4 +715,10 @@ template {
   display: table;
   content: "";
   clear: both;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .wrapper {
+    background: url("../img/Layer15@2x.jpg") no-repeat;
+  }
 }

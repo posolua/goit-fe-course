@@ -1,55 +1,55 @@
 .box {
     text-align: center;
     margin-bottom: 45px;
-}
-.box__template {
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 400;
-    font-size: 72px;
-    color: #ffffff;
-}
-.box__title {
-    font-size: 150px;
-    color: #ffffff;
-    padding: 0 100px;
-    line-height: 0.933;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 125px;
-    margin-top: 40px;
-}
-.box__button {
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0);
-    width: 164px;
-    height: 44px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 214px;
+    &__template {
+        font-family: $subtitle-font;
+        font-weight: 400;
+        font-size: 72px;
+        color: $logo-color;
+    }
+    &__title {
+        font-size: 150px;
+        color: $logo-color;
+        padding: 0 100px;
+        line-height: 0.933;
+        font-family: $main-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 125px;
+        margin-top: 40px;
+    }
+    &__button {
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0);
+        width: 164px;
+        height: 44px;
+        text-transform: uppercase;
+        color: $logo-color;
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 214px;
+    }
 }
 .service, .team {
     text-align: center;
 }
 .service__subtitle, .team__organization {
-    font-family: 'Kaushan Script', cursive;
+    font-family: $subtitle-font;
     font-weight: 400;
     font-size: 24px;
 }
 .service__title, .team__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $main-font;
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     margin: 23px 0 0 0;
 }
 .service__title:after, .team__title:after {
-    border-bottom: 5px solid #f38181;
+    border-bottom: 5px solid $border-color;
     content: "";
     width: 62px;
     display: block;
@@ -67,37 +67,37 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-}
-.service-list__item {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 100px;
+            &__item {
+                -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    margin-bottom: 100px;
+            }
+            &__svg {
+                fill: $svg-color;
+                margin-right: 28px;
+            }
 }
 .service-list-article {
     width: 300px;
     text-align: left;
-}
-.service-list-article__title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: rgb(51, 51, 51);
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-.service-list-article__text {
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 15px;
-    color: rgb(153, 153, 153);
-    line-height: 1.6;
-}
-.service-list__svg {
-    fill: #95e1d3;
-    margin-right: 28px;
+    &__title {
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: rgb(51, 51, 51);
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-family: $text-font;
+        font-weight: 300;
+        font-size: 15px;
+        color: rgb(153, 153, 153);
+        line-height: 1.6;
+    }
 }

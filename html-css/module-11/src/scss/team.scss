@@ -1,5 +1,5 @@
 .team__text {
-    font-family: 'Roboto', sans-serif;
+    font-family: $text-font;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -30,31 +30,30 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-}
-.team-card__name {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-transform: uppercase; 
-    line-height: 1.2;
-    margin-bottom: 15px;    
-    margin-top: 30px;
-}
-.team-card__direction {
-    font-family: 'Roboto', cursive;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 15px;
-    font-style: italic;
-    color: rgb(153, 153, 153);
-    line-height: 1.6;
+            &__name {
+                font-family: $main-font;
+                font-weight: 400;
+                font-size: 14px;
+                text-transform: uppercase; 
+                line-height: 1.2;
+                margin-bottom: 15px;    
+                margin-top: 30px;
+            }
+            &__direction {
+                font-family: 'Roboto', cursive;
+                font-style: italic;
+                font-weight: 100;
+                font-size: 15px;
+                color: rgb(153, 153, 153);
+                line-height: 1.6;
+            }
 }
 .team-item {
     position: relative;
-}
-.team-item__image {
-    width: 380px;
-    height: auto;
+    &__image {
+        width: 380px;
+        height: auto;
+    }
 }
 .team-item-social {
     position: absolute;
@@ -76,6 +75,19 @@
         -ms-flex-align: center;
             align-items: center;
     visibility: hidden;
+    &__link {
+        width: 58px;
+        height: 58px;
+        background-color: $hover-color;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        border-right: 1px solid #f9bd87;
+    }
+    &__icon {
+        fill: $border-color;
+        padding-top: 10px;
+    }
 }
 .team-cards .team-item:hover .team-item__image, .team-cards .team-item:hover .team-item-social {
     visibility: visible;
@@ -102,18 +114,5 @@
     -webkit-transition-duration: 200ms;
          -o-transition-duration: 200ms;
             transition-duration: 200ms;
-    fill: #ffffff;
-}
-.team-item-social__link {
-    width: 58px;
-    height: 58px;
-    background-color: #fce38a;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-    border-right: 1px solid #f9bd87;
-}
-.team-item-social__icon {
-    fill: #f38181;
-    padding-top: 10px;
+    fill: $logo-color;
 }
