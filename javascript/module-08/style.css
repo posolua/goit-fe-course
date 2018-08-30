@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    min-height: 100vh;
+    padding: 3em;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fullview__img {
+    height: 30em;
+  }
+  
+  .preview {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+  .preview__item>img {
+    height: 8em;
+    padding: 0.25em;
+  }
+  
+  .preview__item {
+    border: 0.125em solid #fff;
+  }
+  
+  .preview__item--selected {
+    border: 0.125em solid #99d6ff;
+  }
