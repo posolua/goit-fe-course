@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: rgb(255, 251, 32);
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  width: 400px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #889bd3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+li {
+  position: relative;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+li:not(:nth-child(5n)) {
+  margin-right: 30px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+  
+button {
+  text-transform: uppercase;
+  border-radius: 2px;
+  outline: 0;
+  background: #889bd3;
+  border: 0;
+  font-weight: bold;
+  padding: 8px 20px;
+  color: #ffffff;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s linear;
+}
+
+.form {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+  
+.link-card a {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.link-card a:hover {
+  background: #e6ddee;
+  cursor: pointer;
+}
+  
+.link-card img {
+  width: 100px;
+  height: auto;
+}
+  
+.link-card button {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  border-radius: 2px;
+  outline: 0;
+  background: #434e74;
+  border: 0;
+  font-weight: bold;
+  padding: 8px 20px;
+  color: #ffffff;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s linear;
+}
+  
+button:hover {
+    background-color: rgb(37, 180, 190);
+}
+
+.link-card {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s linear;
+  overflow: hidden;
+  background-color: #12f5cf;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
